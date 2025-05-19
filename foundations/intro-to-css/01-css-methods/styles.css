@@ -7,3 +7,40 @@ div {
   font-weight: bold;
   text-align: center;
 }
+
+
+
+Index.html
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class and ID Selectors</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <p class="ex1">Number 1 - I'm a class!</p>
+    <div class="ex2">Number 2 - I'm one ID.</div>
+    <p class="ex1">Number 3 - I'm a class, but cooler!</p>
+    <div>Number 4 - I'm another ID.</div>
+    <p class="ex1">Number 5 - I'm a class!</p>
+  </body>
+</html>
+
+
+Style.css
+
+.ex1 {
+  background-color: #f48597;
+  font-family: Verdana, "DejaVu Sans", Tahoma, sans-serif
+}
+
+.ex2 {
+  color: blue;
+  font-size: 36px;
+}
+
+
