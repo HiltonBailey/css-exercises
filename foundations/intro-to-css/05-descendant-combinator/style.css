@@ -1,0 +1,7 @@
+.container .text {
+  /* some declarations */
+  background-color: yellow;
+  color: red;
+  text-align: center;
+  font-size: 20px;
+}
