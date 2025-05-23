@@ -43,4 +43,12 @@ Style.css
   font-size: 36px;
 }
 
+-----------------------------------------
+
+/* For flex-direction of row */
+/* Added in the following to center middle of x axis */
+  justify-content: center;
+/* Added in the following to center middle of y axis */
+  align-items: center; 
+
 
