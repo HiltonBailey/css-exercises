@@ -5,6 +5,7 @@
   width: 400px;
   height: 300px;
   display: flex;
+  /* --------------------------*/
   /* For flex-direction of row */
   /* Added in the following to center middle of x axis */
   justify-content: center;
